@@ -31,7 +31,7 @@ Learn about Git by reading and consulting this cheat sheet.
 
 ***
 
-## About Git
+## Git workflow (simplified) 
 |  Step  | Description |
 | ------ | ----------- |
 | **1.** | Initialize a Git repository on your local machine using **git init**. |
@@ -40,6 +40,12 @@ Learn about Git by reading and consulting this cheat sheet.
 | **4.** | Push your commits to a remote repository on GitHub using **git push**. |
 | **5.** | Collaborate with others by cloning their remote repositories using **git clone** or by creating branches, making changes, and merging them back using **git pull** and **git merge**.  |
 <p>Git and GitHub provide a powerful and flexible version control system. This is just a high-level overview, there are many additional concepts and commands in Git that can be explored in more detail. </p>
+
+***
+
+##  Git Illustrated
+
+![Git_Illustrated_image](https://raw.githubusercontent.com/nmelgar/git_cheat_sheet/main/images/git_illustrated.png)
 
 ***
 
