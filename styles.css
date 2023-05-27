@@ -1,0 +1,110 @@
+/* ---- IMPORTS ---- */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+/* ---- VARIABLES ---- */
+:root {
+    --black: #000000;
+    --blue: #0dcaf0;
+    --grey: #343a40;
+    --white: #ffffff;
+    --git-color: #f03c2e;
+}
+
+body {
+    background-color: #000000;
+}
+
+#container {
+    max-width: 960px;
+    background-color: var(--grey);
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+/* ---- HEADER SECTION ---- */
+
+header {
+    background-color: var(--black);
+    display: grid;
+}
+
+#title-container {
+    display: grid;
+    justify-items: center;
+}
+
+#title {
+    display: grid;
+    grid-template-columns: 35% 75%;
+    /* justify-items: center; */
+    align-items: center;
+}
+
+.item1 {
+    justify-self: end;
+}
+
+.item2 {
+    justify-self: start;
+}
+
+#title img {
+    width: 35px;
+}
+
+h1 {
+    color: var(--blue);
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2 {
+    color: var(--white);
+}
+
+hr {
+    width: 70%;
+}
+
+.title-bottom {
+    display: grid;
+    justify-items: end;
+    width: 85%;
+}
+
+
+a i {
+    color: white;
+}
+
+/* ---- MAIN SECTION ---- */
+
+main {
+    padding: 20px 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: var(--white)
+}
+
+.element-left p {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--git-color)
+}
+
+.section-element {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.element-right p {
+    font-size: 14px;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+}

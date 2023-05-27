@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="title-container">
+                <div id="title">
+                    <img src="images/git-logo.png" class="item1" id="git-logo" alt="Git logo">
+                    <h1 class="item2">Git Cheat Sheet</h1>
+                </div>
+                <hr>
+            </div>
+            <div class="title-bottom">
+                <a href="https://github.com/nmelgar" target="_blank">
+                    <i class="fab fa-github"> nmelgar</i>
+                </a>
+            </div>
+        </header>
+        <main>
+            <!-- ABOUT GIT SECTION -->
+            <div class="general-section">
+                <div class="section-title">
+                    <h2 class="heading title">
+                        About Git
+                    </h2>
+                    <!-- <hr> -->
+                </div>
+
+                <!-- individual element -->
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>What is Git?</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Git is a distributed version control system that allows you to track changes to files over
+                            time.
+                            It's designed to be fast, scalable, and ideal for both small and large projects.</p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p class="big-paragraph">Local Repository</p>
+                    </div>
+                    <div class="element-right">
+                        <p>With Git, you start by creating a local repository on your machine. This repository contains
+                            all
+                            the files and the complete history of changes made to those files.</p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p class="big-paragraph">Commits</p>
+                    </div>
+                    <div class="element-right">
+                        <p>As you make changes to your files, Git allows you to create commits. A commit is a snapshot
+                            of
+                            the changes you've made at a particular point in time. Each commit has a unique identifier
+                            called a commit hash.</p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p class="big-paragraph">Branches</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Branches, are separate lines of development. They enable you to work on different features or
+                            bug
+                            fixes without affecting the main codebase. You can switch between branches and merge changes
+                            from one branch to another.</p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p class="big-paragraph">Staging Area</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Git has a staging area, also known as the index, where you can choose which
+                            changes to include in your next commit. This allows you to have more
+                            control over what gets committed.</p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p class="big-paragraph">Remote Repository</p>
+                    </div>
+                    <div class="element-right">
+                        <p>A remote repository is a Git repository hosted on a remote server. GitHub is a
+                            popular platform for hosting remote repositories. It provides additional
+                            collaboration features and a web-based interface for managing Git
+                            repositories.</p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p class="big-paragraph">GitHub</p>
+                    </div>
+                    <div class="element-right">
+                        <p>GitHub is a web-based platform that uses Git for version control. It offers a
+                            graphical interface to interact with Git repositories, making it easier to
+                            collaborate with others. GitHub allows you to host your remote repositories,
+                            share code with others, and contribute to open-source projects.</p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p class="big-paragraph">Pushing and Pulling</p>
+                    </div>
+                    <div class="element-right">
+                        <p>To synchronize your local repository with a remote repository on GitHub, you
+                            use the git push command to upload your local commits. Conversely, you use
+                            the git pull command to fetch and merge the latest changes from the
+                            remote repository to your local repository.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GIT WORKFLOW SECTION -->
+            <div class="general-section">
+                <div class="section-title">
+                    <h2 class="heading title">
+                        Git workflow (simplified)
+                    </h2>
+                    <!-- <hr> -->
+                </div>
+
+                <!-- individual element -->
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>1.</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Initialize a Git repository on your local machine using <b>git init</b>.</p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>2.</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Make changes to your files and use <b>git add</b> to stage the changes.</p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>3.</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Create a commit using <b>git commit</b> to save the staged changes
+                            with a commit message.</p>
+                    </div>
+                </div>
+
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>4.</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Push your commits to a remote repository on GitHub using <b>git push</b>.</p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>5.</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Collaborate with others by cloning their remote repositories
+                            using <b>git clone</b> or by creating branches, making changes, and
+                            merging them back using <b>git pull</b> and <b>git merge</b>. <br> <br>
+                            Git and GitHub provide a powerful and flexible version control
+                            system. This is just a high-level overview, there are many
+                            additional concepts and commands in Git that can be explored
+                            in more detail.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- GIT ILLUSTRATED SECTION -->
+            <div class="general-section">
+                <div class="section-title">
+                    <h2 class="heading title">
+                        Git Illustrated
+                    </h2>
+                    <!-- <hr> -->
+                </div>
+
+
+                <div class="image-container">
+                    <img src="images/git_illustrated.png" alt="" srcset="">
+                </div>
+
+
+            </div>
+
+        </main>
+    </div>
+</body>
+
+</html>
