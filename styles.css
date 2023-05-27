@@ -52,11 +52,13 @@ header {
 
 #title img {
     width: 35px;
+    margin-right: 10px;
 }
 
 h1 {
     color: var(--blue);
     font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3em;
 }
 
 h2 {
@@ -71,11 +73,16 @@ hr {
     display: grid;
     justify-items: end;
     width: 85%;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
-
 
 a i {
     color: white;
+}
+
+a i:hover {
+    color: var(--blue)
 }
 
 /* ---- MAIN SECTION ---- */
@@ -83,6 +90,10 @@ a i {
 main {
     padding: 20px 50px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.general-section {
+    margin-bottom: 70px;
 }
 
 p {
@@ -104,7 +115,7 @@ p {
     font-size: 14px;
 }
 
-.image-container img{
+.image-container img {
     width: 100%;
     height: auto;
 }

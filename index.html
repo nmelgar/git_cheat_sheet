@@ -23,7 +23,7 @@
             </div>
             <div class="title-bottom">
                 <a href="https://github.com/nmelgar" target="_blank">
-                    <i class="fab fa-github"> nmelgar</i>
+                    <i class="fab fa-github"> @nmelgar</i>
                 </a>
             </div>
         </header>
@@ -34,7 +34,7 @@
                     <h2 class="heading title">
                         About Git
                     </h2>
-                    <!-- <hr> -->
+                    <!-- <hr class="general-divider"> -->
                 </div>
 
                 <!-- individual element -->
@@ -214,6 +214,321 @@
 
 
             </div>
+
+            <!-- GIT COMMANDS -->
+            <div class="general-section">
+                <div class="section-title">
+                    <h2 class="heading title">
+                        Git Commands
+                    </h2>
+                    <!-- <hr> -->
+                </div>
+
+                <p>Git has a collection of commands that you can use to perform different tasks. Each command serves a
+                    specific function, like creating a new repository, tracking changes,
+                    merging code, and more.</p>
+
+                <p>Git commands has subcommands and options:</p>
+
+                <!-- individual element -->
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Subcommands</p>
+                    </div>
+                    <div class="element-right">
+                        <p>An additional keyword that follows the main Git command. It specifies a
+                            specific action or operation you want to perform with that command. They
+                            allow you to extend the functionality of the main command by defining
+                            different tasks/actions related to it.
+                            <br>
+                            <br>
+                            e.g. in the command <b>git remote add</b>, remote is the main command, and
+                            add is the subcommand.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Option</p>
+                    </div>
+                    <div class="element-right">
+                        <p>AKA a flag or switch, is used to modify the behavior of a Git command.
+                            Usually represented by a hyphen (-) followed by a single character or a
+                            double hyphen (--) followed by a descriptive name. They are used to modify
+                            how the command operates without changing its core functionality.
+                            <br>
+                            <br>
+                            e.g. in the command <b>git remote -v</b>, -v is the option. It specifies the "verbose"
+                            output and instructs Git to provide more detailed information along with the
+                            default output.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- GIT COMMON COMMANDS -->
+            <div class="general-section">
+                <div class="section-title">
+                    <h2 class="heading title">
+                        Git common commands
+                    </h2>
+                    <!-- <hr> -->
+                </div>
+
+                <!-- individual element -->
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git init</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Initializes a new Git repository in the current directory.
+                            <br>
+                            <b>git init</b> -> creates a new empty Git repository.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git clone</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Copies a remote repository and sets it up locally.
+                            <br>
+                            <b>git clone <repository_url></b> -> clones the remote repository specified by
+                            <repository_url> to your local machine.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git add</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Adds changes or new files to the staging area.
+                            <br>
+                            <b>git add &lt;file_name></b> -> stages the changes made to &lt;file_name> for the
+                            next commit.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git commit</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Records the changes to the repository.
+                            <br>
+                            <b>git commit -m "Commit message"</b> -> commits the staged changes with the provided commit
+                            message.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git push</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Uploads the local commits to a remote repository.
+                            <br>
+                            <b>git push origin master</b> -> pushes the commits from the local "master"
+                            branch to the remote repository named "origin."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git pull</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Fetches changes from a remote repository and integrates them into the current branch.
+                            <br>
+                            <b>git pull origin master</b> -> fetches changes from the remote repository
+                            named "origin" and merges them into the local "master" branch.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git branch</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Lists, creates, or deletes branches.
+                            <br>
+                            <b>git branch</b> -> lists all the branches in the repository.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git checkout</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Switches between branches or restores files from a previous commit.
+                            <br>
+                            <b>git checkout &lt;branch_name></b> -> switches to the branch specified by
+                            &lt;branch_name>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git merge</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Combines changes from different branches.
+                            <br>
+                            <b>git merge &lt;branch_name></b> -> merges the changes from &lt;branch_name> into the
+                            current branch.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git Status</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Shows the current state of the repository.
+                            <br>
+                            <b>git status</b> -> displays information about the modified, staged, and
+                            untracked files in the repository.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git log</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Displays the commit history of the repository.
+                            <br>
+                            <b>git log</b> -> shows a chronological list of commits, including commit hashes,
+                            authors, dates, and commit messages.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git diff</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Shows the differences between the current state and previous commits or between branches.
+                            <br>
+                            <b>git diff</b> -> displays the changes made to the files in the current working
+                            directory compared to the last commit.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git stash</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Temporarily saves changes that are not ready to be committed.
+                            <br>
+                            <b>git stash save "feature in progress"</b> -> stores the current changes in a
+                            stash with the provided message.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git remote</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Manages remote repositories.
+                            <br>
+                            <b>git remote -v</b> lists the configured remote repositories and their URLs. <br>
+                            <b>remote add &lt;remote_name> &lt;repository_url></b> -> adds a new remote
+                            repository
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git fetch</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Downloads the latest changes from a remote repository without merging them..
+                            <br>
+                            <b>git fetch origin</b> -> fetches the latest changes from the remote repository
+                            named "origin" without merging them into the local branch.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git reset</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Undoes commits by moving the branch pointer backward.
+                            <br>
+                            <b>git reset HEAD~1</b> -> undoes the last commit and moves the branch
+                            pointer one commit back. (HEAD~1 refers to the commit one step before)
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git rebase</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Applies changes from one branch onto another branch.
+                            <br>
+                            <b>git rebase &lt;branch_name></b> -> incorporates the changes from
+                            &lt;branch_name> onto the current branch.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git blame</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Shows who last modified each line of a file.
+                            <br>
+                            <b>git blame &lt;file_name></b> -> displays the author and commit information for
+                            each line of &lt;file_name>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <div class="element-left">
+                        <p>Git config</p>
+                    </div>
+                    <div class="element-right">
+                        <p>Sets up Git configuration variables.
+                            <br>
+                            <b>git config --global user.name "John Doe"</b> -> sets the global username to
+                                "John Doe" for all Git repositories on your machine.
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
 
         </main>
     </div>

@@ -8,10 +8,10 @@ Learn about Git by reading and consulting this cheat sheet.
 
 <ul>
     <a href="#about-git"><li>About Git</li></a>
-    <a href="#git-workflow"><li>Git Workflow (simplified)</li></a>
-    <a href="#git-illustrated"><li>Git Illustrated</li></a>
+    <a href="#git-workflow"><li>Git workflow (simplified)</li></a>
+    <a href="#git-illustrated"><li>Git illustrated</li></a>
     <a href="#git-commands"><li>Git commands</li></a>
-    <a href="#git-common-c"><li>Common Git commands</li></a>
+    <a href="#git-common-c"><li>Git common commands</li></a>
     
 </ul>
 
@@ -43,7 +43,7 @@ Learn about Git by reading and consulting this cheat sheet.
 
 ***
 
-##  Git Illustrated<a name="git-illustrated"></a>
+##  Git illustrated<a name="git-illustrated"></a>
 
 ![Git_Illustrated_image](https://raw.githubusercontent.com/nmelgar/git_cheat_sheet/main/images/git_illustrated.png)
 
@@ -64,7 +64,7 @@ merging code, and more.</p>
 
 ***
 
-## Common Git commands<a name="git-common-c"></a>
+## Git common commands<a name="git-common-c"></a>
 
 | Command | Description + Example |
 | ------- | --------------------- |
