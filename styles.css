@@ -79,7 +79,7 @@ hr {
 
 a i {
     color: white;
-    font-size:  0.8em;
+    font-size: 0.8em;
 }
 
 a i:hover {
@@ -162,7 +162,6 @@ p {
         padding: 15px 35px;
     }
 
-
     .section-element {
         display: grid;
         grid-template-columns: 1fr;
@@ -171,20 +170,11 @@ p {
 }
 
 @media (max-width: 430px) {
-    /* .item1 {
-        order: 2
-    }
 
-    .item2 {
-        order: 1
-    }
-    #title img {
-        width: 35px;
-        margin-right: px;
-    } */
     h1 {
         font-size: 2em;
     }
+
     h2 {
         font-size: 1.5em;
     }
