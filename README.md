@@ -31,6 +31,18 @@ Learn about Git by reading and consulting this cheat sheet.
 
 ***
 
+## About Git
+|  Step  | Description |
+| ------ | ----------- |
+| **1.** | Initialize a Git repository on your local machine using **git init**. |
+| **2.** | Make changes to your files and use **git add** to stage the changes. |
+| **3.** | Create a commit using **git commit** to save the staged changes with a commit message. |
+| **4.** | Push your commits to a remote repository on GitHub using **git push**. |
+| **5.** | Collaborate with others by cloning their remote repositories using **git clone** or by creating branches, making changes, and merging them back using **git pull** and **git merge**.  |
+<p>Git and GitHub provide a powerful and flexible version control system. This is just a high-level overview, there are many additional concepts and commands in Git that can be explored in more detail. </p>
+
+***
+
 ## Author
 ---
 * Nefi Melgar (nefimelgarg@gmail.com)
