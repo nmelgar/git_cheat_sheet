@@ -17,8 +17,8 @@ Learn about Git by reading and consulting this cheat sheet.
 
 ***
 
-<span id="list-methods">## About Git</span>
-|    |    |
+## About Git
+|  Element  | Description   |
 | What is Git? | Git is a distributed version control system that allows you to track changes to files over time. It's designed to be fast, scalable, and ideal for both small and large projects. |
 
 ***
