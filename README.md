@@ -49,6 +49,32 @@ Learn about Git by reading and consulting this cheat sheet.
 
 ***
 
+## Git commands
+<p>Git has a collection of commands that you can use to perform different tasks. Each
+command serves a specific function, like creating a new repository, tracking changes,
+merging code, and more.</p>
+<br>
+<p>Git commands has subcommands and options:</p>
+<br>
+<p>**Subcommands:** An additional keyword that follows the main Git command. It specifies a
+specific action or operation you want to perform with that command. They
+allow you to extend the functionality of the main command by defining
+different tasks/actions related to it.
+<br>
+e.g. in the command **git remote add**, remote is the main command, and
+add is the subcommand.
+</p>
+<br>
+<p>**Option:** AKA a flag or switch, is used to modify the behavior of a Git command.
+Usually represented by a hyphen (-) followed by a single character or a
+double hyphen (--) followed by a descriptive name. They are used to modify
+how the command operates without changing its core functionality.
+<br>
+e.g. in the **command git remote -v**, -v is the option. It specifies the "verbose" output and instructs Git to provide more detailed information along with the default output.
+</p>
+
+***
+
 ## Author
 ---
 * Nefi Melgar (nefimelgarg@gmail.com)
