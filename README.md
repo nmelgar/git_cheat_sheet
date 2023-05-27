@@ -1,7 +1,7 @@
 # Git Cheat Sheet
 Learn about Git by reading and consulting this cheat sheet.
 ***
-<p>Changes are being made to improve it. <a target="_blank" href="#">here</a>. Feel free to contact me with suggestions.</p>
+<p>Changes are being made to improve it. You can visite the website <a target="_blank" href="https://ponicat.app/cheat-sheets/git/">here</a>. Feel free to contact me with suggestions.</p>
 
 ***
 ## Elements covered in this cheat sheet
