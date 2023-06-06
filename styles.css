@@ -70,19 +70,23 @@ hr {
 }
 
 .title-bottom {
-    display: grid;
-    justify-items: end;
+    display: flex;
+    /* Updated */
+    justify-content: flex-end;
+    /* Updated */
     width: 85%;
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
-a i {
+.title-bottom a i {
     color: white;
     font-size: 0.8em;
+    margin-left: 10px;
 }
 
-a i:hover {
+
+.title-bottom a i:hover {
     color: var(--blue)
 }
 
